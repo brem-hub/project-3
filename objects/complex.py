@@ -11,7 +11,7 @@ class Complex(Number):
 
     def __init__(self):
         self._real: float = 0
-        self._complex: float = 0
+        self._imaginary: float = 0
 
     def input(self, ifstream: TextIO) -> bool:
         """
@@ -30,7 +30,7 @@ class Complex(Number):
 
         try:
             self._real = float(line_split[0])
-            self._complex = float(line_split[1])
+            self._imaginary = float(line_split[1])
             return True
         except ValueError as exc:
             print(f"Could not parse line `{line}` to complex number. Full error message: {exc}")
@@ -45,19 +45,19 @@ class Complex(Number):
 
         :return: float представление числа
         """
-        return math.sqrt(self._real * self._real + self._complex * self._complex)
+        return math.sqrt(self._real * self._real + self._imaginary * self._imaginary)
 
     def random(self) -> None:
         """
         Случайное заполнение числа.
         """
         self._real = random.uniform(-100, 100)
-        self._complex = random.uniform(-100, 100)
+        self._imaginary = random.uniform(-100, 100)
 
     def __str__(self):
-        return f'complex number: {self._real:0.5f} + {self._complex:0.5f}i; double representation: {self.cast_to_float():0.5f}'
+        return f'complex number: {self._real:0.5f} + {self._imaginary:0.5f}i; double representation: {self.cast_to_float():0.5f}'
 
     def __repr__(self):
         return f'{Number.TYPE.COMPLEX}\n' \
-               f'{self._real} {self._complex}'
+               f'{self._real} {self._imaginary}'
 
