@@ -72,4 +72,4 @@ project/
 В текущей реализации класс `number` является абстрактным и не реализует никаких общих методов, но если бы класс `number` содержал общие параметры для всех чисел, то `number` имел бы виртульные методы, которые переопределялись бы в наследниках.
 
 ## Структура текущего архитектурного решения
-![Architecture image](https://github.com/brem-hub/project-3/blob/master/docs/images/architecture.png?raw=true)
+![Architecture image](https://github.com/brem-hub/project-3/blob/main/docs/images/architecture.png?raw=true)
