@@ -1,0 +1,26 @@
+0) complex number: 20.82118 + -67.88643i; double representation: 71.00766
+1) fraction -92/-20; float representation: 4.60000
+2) polar number: w=-80.90853, coords=(17, 23); float representation: 28.60070
+3) polar number: w=22.79795, coords=(-9, -28); float representation: 29.41088
+4) fraction -57/100; float representation: -0.57000
+5) complex number: 25.41716 + -28.50886i; double representation: 38.19407
+6) fraction -21/-35; float representation: 0.60000
+7) polar number: w=-91.08608, coords=(93, 21); float representation: 95.34149
+8) polar number: w=40.04500, coords=(19, 7); float representation: 20.24846
+9) fraction -56/-53; float representation: 1.05660
+=======================
+
+number of elements: 10
+
+====| Straight Sort results | ====
+
+0) fraction -57/100; float representation: -0.57000
+1) fraction -21/-35; float representation: 0.60000
+2) fraction -56/-53; float representation: 1.05660
+3) fraction -92/-20; float representation: 4.60000
+4) polar number: w=40.04500, coords=(19, 7); float representation: 20.24846
+5) polar number: w=-80.90853, coords=(17, 23); float representation: 28.60070
+6) polar number: w=22.79795, coords=(-9, -28); float representation: 29.41088
+7) complex number: 25.41716 + -28.50886i; double representation: 38.19407
+8) complex number: 20.82118 + -67.88643i; double representation: 71.00766
+9) polar number: w=-91.08608, coords=(93, 21); float representation: 95.34149

@@ -1,0 +1,14 @@
+Attention! This file is not executable, it has an example of correct input file with comments.
+
+```
+3               # number of elements
+0               # COMPLEX - type of the element, See: number.TYPE
+1.1 2.31        # number input
+1               # FRACTION
+10 20
+2               # POLAR
+33.13 10 -10
+```
+
+try this example in console from the root of the project:
+echo "3\n0\n1.1 2.31\n1\n10 20\n2\n33.13 10 -10" > example.txt && python main.py -i example.txt -o example_output.txt
